@@ -1,0 +1,5 @@
+\#assets
+.gitignore
+.prettierignore
+package.json
+README.md

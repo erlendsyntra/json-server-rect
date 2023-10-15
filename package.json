@@ -1,0 +1,21 @@
+{
+  "name": "4.json-server-rect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite --open --host",
+    "build": "vite build",
+    "preview": "vite preview --open --host",
+    "predeploy": "npm run build",
+    "deploy": "surge ./dist json-server_erlend.surge.sh",
+    "db": "json-server --watch ./db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "randomcolor": "^0.6.2"
+  }
+}
