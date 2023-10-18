@@ -2,7 +2,7 @@
   "rectangles": [
     {
       "id": 1,
-      "color": "#f9ca6b",
+      "color": "#7a67ee",
       "width": "200px",
       "height": "100px",
       "x": "50px",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "color": "#e57670",
+      "color": "#ca2bd8",
       "width": "300px",
       "height": "150px",
       "x": "300px",
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "color": "#747ae0",
+      "color": "#c60000",
       "width": "400px",
       "height": "200px",
       "x": "650px",

@@ -10,7 +10,6 @@ async function main() {
     const id = e.target.dataset.id;
     const response = await fetch(basePath + id, {
       method: "DELETE",
-      headers: { "Content-Type": "application/json" },
     });
     render();
   };
@@ -36,7 +35,16 @@ async function main() {
     const data = await response.json();
     container.innerHTML = data
       .map(({ id, color, width, height, x, y }) => {
-        return `<div class="rectangle" data-id="${id}" style="background-color:${color}; width:${width}; height:${height}; top:${y}; left:${x}; position:absolute"></div>`;
+        return `<div class="rectangle" data-id="${id}" 
+        style="
+            background-color:${color}; 
+            width:${width}; 
+            height:${height}; 
+            top:${y}; 
+            left:${x}; 
+            position:absolute
+        ">
+        </div>`;
       })
       .join("");
   }
